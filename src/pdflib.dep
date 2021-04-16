@@ -1,0 +1,499 @@
+$(OBJDIR)/pdflib.o: pdflib/pdflib.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h
+$(OBJDIR)/p_3d.o: pdflib/p_3d.c pdflib/p_intern.h pdflib/pdflib.h font/ft_font.h \
+  pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h
+$(OBJDIR)/p_actions.o: pdflib/p_actions.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_layer.h
+$(OBJDIR)/p_afm.o: pdflib/p_afm.c pdflib/p_intern.h pdflib/pdflib.h font/ft_font.h \
+  pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_font.h
+$(OBJDIR)/p_annots.o: pdflib/p_annots.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h pdflib/p_font.h pdflib/p_image.h
+$(OBJDIR)/p_block.o: pdflib/p_block.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h pdflib/p_font.h pdflib/p_image.h \
+  pdflib/p_defopt.h
+$(OBJDIR)/p_bmp.o: pdflib/p_bmp.c pdflib/p_intern.h pdflib/pdflib.h font/ft_font.h \
+  pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h pdflib/p_image.h
+$(OBJDIR)/p_ccitt.o: pdflib/p_ccitt.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h pdflib/p_image.h
+$(OBJDIR)/p_cid.o: pdflib/p_cid.c pdflib/p_intern.h pdflib/pdflib.h font/ft_font.h \
+  pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_font.h
+$(OBJDIR)/p_color.o: pdflib/p_color.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h
+$(OBJDIR)/p_document.o: pdflib/p_document.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_image.h pdflib/p_layer.h pdflib/p_page.h \
+  pdflib/p_tagged.h pdcore/pc_strconst.h
+$(OBJDIR)/p_draw.o: pdflib/p_draw.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_layer.h pdflib/p_tagged.h
+$(OBJDIR)/p_encoding.o: pdflib/p_encoding.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_font.h
+$(OBJDIR)/p_fields.o: pdflib/p_fields.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h pdflib/p_font.h pdflib/p_image.h
+$(OBJDIR)/p_filter.o: pdflib/p_filter.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h
+$(OBJDIR)/p_font.o: pdflib/p_font.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h pdflib/p_defopt.h pdflib/p_font.h \
+  pdflib/p_tagged.h font/ft_truetype.h
+$(OBJDIR)/p_gif.o: pdflib/p_gif.c pdflib/p_intern.h pdflib/pdflib.h font/ft_font.h \
+  pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h pdflib/p_image.h
+$(OBJDIR)/p_gstate.o: pdflib/p_gstate.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h
+$(OBJDIR)/p_hyper.o: pdflib/p_hyper.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h
+$(OBJDIR)/p_icc.o: pdflib/p_icc.c pdflib/p_intern.h pdflib/pdflib.h font/ft_font.h \
+  pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h
+$(OBJDIR)/p_icclib.o: pdflib/p_icclib.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h pdcore/pc_ctype.h
+$(OBJDIR)/p_image.o: pdflib/p_image.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h pdflib/p_defopt.h pdflib/p_font.h \
+  pdflib/p_image.h pdflib/p_layer.h pdflib/p_tagged.h
+$(OBJDIR)/p_jpeg.o: pdflib/p_jpeg.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h pdflib/p_image.h
+$(OBJDIR)/p_jpx.o: pdflib/p_jpx.c pdflib/p_intern.h pdflib/pdflib.h font/ft_font.h \
+  pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h pdflib/p_image.h
+$(OBJDIR)/p_kerning.o: pdflib/p_kerning.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_font.h
+$(OBJDIR)/p_layer.o: pdflib/p_layer.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_layer.h pdflib/p_tagged.h
+$(OBJDIR)/p_mbox.o: pdflib/p_mbox.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h pdflib/p_font.h pdflib/p_defopt.h
+$(OBJDIR)/p_object.o: pdflib/p_object.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_image.h
+$(OBJDIR)/p_opi.o: pdflib/p_opi.c pdflib/p_intern.h pdflib/pdflib.h font/ft_font.h \
+  pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_image.h
+$(OBJDIR)/p_page.o: pdflib/p_page.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h pdflib/p_font.h pdflib/p_image.h \
+  pdflib/p_layer.h pdflib/p_page.h pdflib/p_tagged.h
+$(OBJDIR)/p_params.o: pdflib/p_params.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h pdflib/p_font.h pdflib/p_image.h \
+  pdflib/p_page.h pdflib/p_tagged.h pdcore/pc_scope.h pdflib/p_params.h
+$(OBJDIR)/p_pattern.o: pdflib/p_pattern.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h pdflib/p_image.h
+$(OBJDIR)/p_pdi.o: pdflib/p_pdi.c pdflib/p_intern.h pdflib/pdflib.h font/ft_font.h \
+  pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h
+$(OBJDIR)/p_pfm.o: pdflib/p_pfm.c pdflib/p_intern.h pdflib/pdflib.h font/ft_font.h \
+  pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_font.h
+$(OBJDIR)/p_photoshp.o: pdflib/p_photoshp.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_image.h
+$(OBJDIR)/p_png.o: pdflib/p_png.c pdflib/p_intern.h pdflib/pdflib.h font/ft_font.h \
+  pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h pdflib/p_image.h
+$(OBJDIR)/p_shading.o: pdflib/p_shading.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h
+$(OBJDIR)/p_subsett.o: pdflib/p_subsett.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_font.h font/ft_truetype.h pdcore/pc_md5.h
+$(OBJDIR)/p_table.o: pdflib/p_table.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h pdflib/p_defopt.h pdflib/p_font.h \
+  pdflib/p_tagged.h
+$(OBJDIR)/p_tagged.o: pdflib/p_tagged.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_layer.h pdflib/p_tagged.h \
+  pdcore/pc_strconst.h
+$(OBJDIR)/p_template.o: pdflib/p_template.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_image.h
+$(OBJDIR)/p_text.o: pdflib/p_text.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h pdflib/p_defopt.h pdflib/p_font.h \
+  pdflib/p_layer.h pdflib/p_tagged.h
+$(OBJDIR)/p_textflow.o: pdflib/p_textflow.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h pdflib/p_font.h pdflib/p_defopt.h \
+  pdflib/p_tagged.h
+$(OBJDIR)/p_tiff.o: pdflib/p_tiff.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_color.h pdflib/p_image.h
+$(OBJDIR)/p_truetype.o: pdflib/p_truetype.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_font.h font/ft_truetype.h
+$(OBJDIR)/p_type1.o: pdflib/p_type1.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_font.h pdcore/pc_ctype.h \
+  pdcore/pc_strconst.h pdcore/pc_string.h
+$(OBJDIR)/p_type3.o: pdflib/p_type3.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_font.h pdflib/p_image.h
+$(OBJDIR)/p_util.o: pdflib/p_util.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_font.h pdflib/p_image.h pdflib/p_layer.h
+$(OBJDIR)/p_xgstate.o: pdflib/p_xgstate.c pdflib/p_intern.h pdflib/pdflib.h \
+  font/ft_font.h pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h pdflib/p_font.h
+$(OBJDIR)/p_xmp.o: pdflib/p_xmp.c pdflib/p_intern.h pdflib/pdflib.h font/ft_font.h \
+  pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h pdcore/pc_contain.h pdflib/p_keyconn.h \
+  pdflib/p_generr.h
+$(OBJDIR)/pc_aes.o: pdcore/pc_aes.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h
+$(OBJDIR)/pc_aescbc.o: pdcore/pc_aescbc.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h
+$(OBJDIR)/pc_arc4.o: pdcore/pc_arc4.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h pdcore/pc_arc4.h
+$(OBJDIR)/pc_chartabs.o: pdcore/pc_chartabs.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h pdcore/pc_chartabs.h \
+  pdcore/pc_ctype.h
+$(OBJDIR)/pc_contain.o: pdcore/pc_contain.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h pdcore/pc_contain.h
+$(OBJDIR)/pc_core.o: pdcore/pc_core.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h pdcore/pc_string.h \
+  pdcore/pc_ctype.h
+$(OBJDIR)/pc_crypt.o: pdcore/pc_crypt.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h pdcore/pc_md5.h \
+  pdcore/pc_crypt.h pdcore/pc_arc4.h pdcore/pc_aes.h
+$(OBJDIR)/pc_ctype.o: pdcore/pc_ctype.c pdcore/pc_ctype.h pdcore/pc_util.h \
+  pdcore/pc_config.h pdcore/pc_core.h pdcore/pc_generr.h \
+  pdcore/pc_ebcdic.h pdcore/pc_optparse.h pdcore/pc_encoding.h \
+  pdcore/pc_output.h pdcore/pc_unicode.h pdcore/pc_resource.h
+$(OBJDIR)/pc_digsig.o: pdcore/pc_digsig.c
+$(OBJDIR)/pc_ebcdic.o: pdcore/pc_ebcdic.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h
+$(OBJDIR)/pc_encoding.o: pdcore/pc_encoding.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h pdcore/pc_file.h \
+  pdcore/pc_ctype.h
+$(OBJDIR)/pc_file.o: pdcore/pc_file.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h pdcore/pc_md5.h \
+  pdcore/pc_file.h
+$(OBJDIR)/pc_geom.o: pdcore/pc_geom.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h pdcore/pc_geom.h
+$(OBJDIR)/pc_md5.o: pdcore/pc_md5.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h pdcore/pc_md5.h
+$(OBJDIR)/pc_optparse.o: pdcore/pc_optparse.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h pdcore/pc_file.h \
+  pdcore/pc_geom.h pdcore/pc_ctype.h
+$(OBJDIR)/pc_output.o: pdcore/pc_output.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h pdcore/pc_file.h \
+  pdcore/pc_md5.h
+$(OBJDIR)/pc_resource.o: pdcore/pc_resource.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h pdcore/pc_file.h \
+  pdcore/pc_ctype.h
+$(OBJDIR)/pc_scan.o: pdcore/pc_scan.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h pdcore/pc_strconst.h \
+  pdcore/pc_ctype.h pdcore/pc_scan.h pdcore/pc_string.h
+$(OBJDIR)/pc_scope.o: pdcore/pc_scope.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h pdcore/pc_scope.h \
+  pdcore/pc_file.h pdcore/pc_ctype.h
+$(OBJDIR)/pc_string.o: pdcore/pc_string.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h pdcore/pc_string.h \
+  pdcore/pc_ctype.h
+$(OBJDIR)/pc_unicode.o: pdcore/pc_unicode.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h
+$(OBJDIR)/pc_util.o: pdcore/pc_util.c pdcore/pc_util.h pdcore/pc_config.h \
+  pdcore/pc_core.h pdcore/pc_generr.h pdcore/pc_ebcdic.h \
+  pdcore/pc_optparse.h pdcore/pc_encoding.h pdcore/pc_output.h \
+  pdcore/pc_unicode.h pdcore/pc_resource.h pdcore/pc_file.h \
+  pdcore/pc_ctype.h
+$(OBJDIR)/pc_xmp.o: pdcore/pc_xmp.c pdcore/pc_ctype.h pdcore/pc_util.h \
+  pdcore/pc_config.h pdcore/pc_core.h pdcore/pc_generr.h \
+  pdcore/pc_ebcdic.h pdcore/pc_optparse.h pdcore/pc_encoding.h \
+  pdcore/pc_output.h pdcore/pc_unicode.h pdcore/pc_resource.h \
+  pdcore/pc_strconst.h pdcore/pc_md5.h
+$(OBJDIR)/ft_cid.o: font/ft_cid.c font/ft_font.h pdcore/pc_util.h \
+  pdcore/pc_config.h pdcore/pc_core.h pdcore/pc_generr.h \
+  pdcore/pc_ebcdic.h pdcore/pc_optparse.h pdcore/pc_encoding.h \
+  pdcore/pc_output.h pdcore/pc_unicode.h pdcore/pc_resource.h \
+  pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h font/ft_generr.h
+$(OBJDIR)/ft_corefont.o: font/ft_corefont.c font/ft_font.h pdcore/pc_util.h \
+  pdcore/pc_config.h pdcore/pc_core.h pdcore/pc_generr.h \
+  pdcore/pc_ebcdic.h pdcore/pc_optparse.h pdcore/pc_encoding.h \
+  pdcore/pc_output.h pdcore/pc_unicode.h pdcore/pc_resource.h \
+  pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h font/ft_generr.h \
+  font/ft_corefont.h
+$(OBJDIR)/ft_font.o: font/ft_font.c font/ft_font.h pdcore/pc_util.h \
+  pdcore/pc_config.h pdcore/pc_core.h pdcore/pc_generr.h \
+  pdcore/pc_ebcdic.h pdcore/pc_optparse.h pdcore/pc_encoding.h \
+  pdcore/pc_output.h pdcore/pc_unicode.h pdcore/pc_resource.h \
+  pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h font/ft_generr.h
+$(OBJDIR)/ft_hostfont.o: font/ft_hostfont.c pdcore/pc_ctype.h pdcore/pc_util.h \
+  pdcore/pc_config.h pdcore/pc_core.h pdcore/pc_generr.h \
+  pdcore/pc_ebcdic.h pdcore/pc_optparse.h pdcore/pc_encoding.h \
+  pdcore/pc_output.h pdcore/pc_unicode.h pdcore/pc_resource.h \
+  font/ft_font.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h font/ft_truetype.h
+$(OBJDIR)/ft_pdffont.o: font/ft_pdffont.c font/ft_pdffont.h font/ft_font.h \
+  pdcore/pc_util.h pdcore/pc_config.h pdcore/pc_core.h \
+  pdcore/pc_generr.h pdcore/pc_ebcdic.h pdcore/pc_optparse.h \
+  pdcore/pc_encoding.h pdcore/pc_output.h pdcore/pc_unicode.h \
+  pdcore/pc_resource.h pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h \
+  font/ft_generr.h font/ft_truetype.h
+$(OBJDIR)/ft_truetype.o: font/ft_truetype.c font/ft_font.h pdcore/pc_util.h \
+  pdcore/pc_config.h pdcore/pc_core.h pdcore/pc_generr.h \
+  pdcore/pc_ebcdic.h pdcore/pc_optparse.h pdcore/pc_encoding.h \
+  pdcore/pc_output.h pdcore/pc_unicode.h pdcore/pc_resource.h \
+  pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h font/ft_generr.h \
+  font/ft_truetype.h
+$(OBJDIR)/ft_type1.o: font/ft_type1.c font/ft_font.h pdcore/pc_util.h \
+  pdcore/pc_config.h pdcore/pc_core.h pdcore/pc_generr.h \
+  pdcore/pc_ebcdic.h pdcore/pc_optparse.h pdcore/pc_encoding.h \
+  pdcore/pc_output.h pdcore/pc_unicode.h pdcore/pc_resource.h \
+  pdcore/pc_geom.h pdcore/pc_file.h font/ft_cid.h font/ft_generr.h

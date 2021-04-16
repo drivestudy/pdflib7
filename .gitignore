@@ -1,0 +1,14 @@
+# ignore files
+lib/
+obj/
+bin/
+
+# clangd
+.cache
+
+# xmake
+.xmake
+xmake_build
+
+# compile_commands
+compile_commands.json
