@@ -8,7 +8,8 @@ bin/
 
 # xmake
 .xmake
-xmake_build
+xmake.Build
+xmake.XcodeMac
 
 # compile_commands
 compile_commands.json
