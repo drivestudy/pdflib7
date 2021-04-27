@@ -8,5 +8,6 @@ set_config("buildir", "xmake.Build")
 set_config("mode", "debug")
 set_config("plat", "macosx")
 set_config("arch", "x86_64")
+set_config("cxflags", "-O2")
 
 includes("src")
